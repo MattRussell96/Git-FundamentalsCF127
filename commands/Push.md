@@ -14,7 +14,7 @@ This command will push the **main** branch to the remote called **origin**. This
 
 Instead of including the name of the remote and the branch you're on every time, you can set local branches to track an upstream branch. This means you can tell the branch to push to it's assigned upstream remote branch by using the command `git push`.
 
-Before doing so you'll need to add the `-u` oe `--set upstream` flag. This can be done on any `git push`.
+Before doing so you'll need to add the `-u` or `--set upstream` flag. This can be done on any `git push`.
 
 ```
 git push -u origin main
